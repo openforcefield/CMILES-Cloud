@@ -6,6 +6,15 @@ CMILES-Cloud
 
 Like CMILES, but in the cloud :rocket:.
 
+To start a webserver run:
+```bash
+uvicorn app.app:app --reload
+```
+
+To view the docs, navigate to `http://127.0.0.1:8000`!
+
+:fire:
+
 ### Copyright
 
 Copyright (c) 2020, Open Force Field
